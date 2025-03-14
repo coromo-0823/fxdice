@@ -4,36 +4,11 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<VBox alignment="CENTER" prefHeight="420.0" prefWidth="526.0" spacing="20.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17.0.2-ea" fx:controller="com.example.fxdice.HelloController">
+<VBox alignment="CENTER" prefHeight="420.0" prefWidth="526.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.fxdice.HelloController">
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
     </padding>
-   <CheckBox mnemonicParsing="false" prefHeight="38.0" prefWidth="204.0" text="CheckBox">
-      <graphic>
-         <Accordion>
-           <panes>
-             <TitledPane animated="false" prefHeight="0.0" prefWidth="202.0" text="untitled 2">
-               <content>
-                 <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
-               </content>
-             </TitledPane>
-             <TitledPane animated="false" prefHeight="0.0" prefWidth="145.0" text="untitled 3">
-               <content>
-                 <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
-               </content>
-             </TitledPane>
-           </panes>
-         </Accordion>
-      </graphic>
-   </CheckBox>
 
     <Label fx:id="welcomeText" prefHeight="83.0" prefWidth="340.0" />
-    <Button onAction="#onHelloButtonClick" prefHeight="163.0" prefWidth="291.0" text="Hello!">
-      <graphic>
-         <Button mnemonicParsing="false" prefHeight="95.0" prefWidth="166.0" text="Button">
-            <graphic>
-               <Button mnemonicParsing="false" text="Button" />
-            </graphic>
-         </Button>
-      </graphic></Button>
+    <Button onAction="#onHelloButtonClick" prefHeight="163.0" prefWidth="291.0" text="Hello!" />
 </VBox>
